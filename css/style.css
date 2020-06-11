@@ -2973,7 +2973,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .hover-option6 .grid-item figcaption {height: 100%; position: relative; opacity: 1; padding:35px 10px; background: #fff}
 .hover-option6 .grid-item .portfolio-hover-main {transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; display: table; height: 100%; top: 0; width: 100%;}
 .hover-option6 .grid-item .portfolio-icon {transition: all 0.3s ease 0s; position: absolute; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); position: absolute; top: 55%; left:0; right: 0; opacity: 0}
-.hover-option6 .grid-item figure:hover .portfolio-icon {opacity: 1; top: 50%; }
+.hover-option6 .grid-item figure:hover .portfolio-icon {opacity: 1; top: 50%; left: 10%; color: white;}
 .hover-option6 .grid-item .portfolio-icon a {border-radius: 50%; border:2px solid transparent; background: #fff; margin: 0 7px; height: 46px; width: 46px; display: inline-block; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 .hover-option6 .grid-item .portfolio-icon i.fa-link {font-size:20px; position: relative; top: 11px}
 .hover-option6 .grid-item .portfolio-icon i.fa-search {font-size:16px; position: relative; top: 10px}
@@ -3214,7 +3214,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 .feature-box {overflow: hidden;position: relative;text-align: center; cursor: pointer}
 .feature-box .content {padding: 35px 15px;}
-.feature-box:before, .feature-box .content:before, .feature-box:after, .feature-box .content:after{display: inline-block; position:absolute; content:""; background-color:#ff214f; z-index: 1}
+.feature-box:before, .feature-box .content:before, .feature-box:after, .feature-box .content:after{display: inline-block; position:absolute; content:""; background-color:#7890aa; z-index: 1}
 .feature-box:before, .feature-box .content:before {right:0; top:0; transition-duration:0.5s; -webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s; -o-transition-duration:0.5s;}
 .feature-box:after, .feature-box .content:after {left:0; bottom:0; transition-duration:0.5s; -webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s; -o-transition-duration:0.5s;}
 .feature-box:hover:before, .feature-box:hover:after{transform:scaleY(1); transition-duration:0.5s; -webkit-transition-duration:0.5s; -moz-transition-duration:0.5s; -ms-transition-duration:0.5s; -o-transition-duration:0.5s;}
