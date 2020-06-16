@@ -607,14 +607,14 @@ $(document).ready(function () {
 
     var swiperThreeSlides = new Swiper('.swiper-three-slides', {
         allowTouchMove: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         preventClicks: false,
         pagination: {
             el: '.swiper-pagination-three-slides',
             clickable: true
         },
         autoplay: {
-            delay: 3000
+            delay: 4500
         },
         keyboard: {
             enabled: true
