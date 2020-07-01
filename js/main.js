@@ -1232,25 +1232,25 @@ $(document).ready(function () {
                                 'scrollTop': $(target).offset().top
                             });
                 }
-            }, 500);
+            }, 100);
         });
     }
 
     // Inner links
     if ($('.navbar-top').length > 0 || $('.navbar-scroll-top').length > 0 || $('.nav-top-scroll').length > 0) {
         $('.inner-link').smoothScroll({
-            speed: 900,
+            speed: 100,
             offset: 0
         });
     } else {
         $('.inner-link').smoothScroll({
-            speed: 900,
+            speed: 100,
             offset: -59
         });
     }
 
     $('.section-link').smoothScroll({
-        speed: 900,
+        speed: 100,
         offset: 1
     });
 
