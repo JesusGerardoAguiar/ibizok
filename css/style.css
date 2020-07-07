@@ -803,10 +803,12 @@ a.text-very-light-gray-hover:hover {
 ====================================== */
 
 .bg-transparent {
-  background-color: transparent;
+  background-color: #626f80;
+  opacity: 0.9;
 }
 .bg-white {
   background-color: #fff;
+  opacity: 1;
 }
 .bg-black {
   background-color: #000;
